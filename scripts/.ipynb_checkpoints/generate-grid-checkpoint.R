@@ -1,9 +1,8 @@
-library(fs)
 library(sf)
 library(dggridR)
 
 # This needs to be run in RStudio - change to manual path spec if run as Rscript
-setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+setwd("/scratch/user/uqtdenni/github/farauti-qld-paper/scripts")
 
 # Define bounding box manually: xmin, ymin, xmax, ymax (lon/lat WGS84)
 xmin <- 127
